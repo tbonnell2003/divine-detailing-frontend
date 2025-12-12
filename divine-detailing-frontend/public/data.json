@@ -1,0 +1,142 @@
+{
+  "packages": [
+    {
+      "id": "bronze",
+      "name": "Bronze Detail",
+      "type": "exterior",
+      "price": 75,
+      "description": "Exterior wash, decon soap, wheels/tires, paint sealant, glass cleaned.",
+      "image": "./images/gallery/jeepren_exterior_after.jpg",
+      "attributes": {
+        "protection": "Spray sealant",
+        "duration_weeks": 3,
+        "alt": "Foam wash on blue car hood"
+      }
+    },
+    {
+      "id": "silver",
+      "name": "Silver Detail",
+      "type": "interior",
+      "price": 125,
+      "description": "Interior deep clean with stain treatment, steam, vacuum, plastics protectant.",
+      "image": "./images/gallery/van_rear_interior.jpg",
+      "attributes": {
+        "protection": "UV interior dressing",
+        "duration_weeks": 6,
+        "alt": "Clean dashboard and steering wheel"
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold Detail",
+      "type": "full",
+      "price": 175,
+      "description": "Full interior + exterior service combining Silver and Bronze.",
+      "image": "./images/gallery/van_front_exterior.jpg",
+      "attributes": {
+        "protection": "Sealant + interior dressing",
+        "duration_weeks": 6,
+        "alt": "Black car shining after detail"
+      }
+    },
+    {
+      "id": "divine",
+      "name": "Divine Detail",
+      "type": "full",
+      "price": 200,
+      "description": "Gold package plus spray wax finish and glass paste wax.",
+      "image": "./images/gallery/optima_sunset.jpg",
+      "attributes": {
+        "protection": "Spray wax + glass paste wax",
+        "duration_weeks": 8,
+        "alt": "Microfiber buffing a glossy fender"
+      }
+    }
+  ],
+  "addons": [
+    { "name": "2-Row SUV", "price": 15, "description": "Additional size and surfaces." },
+    { "name": "3-Row SUV / Truck / Van", "price": 25, "description": "Larger cabin and cargo." },
+    { "name": "Ceramic Sealant", "price": 75, "description": "6+ months hydrophobic protection." },
+    { "name": "Plastic Restoration", "price": 25, "description": "Revives faded exterior trim." }
+  ],
+  "gallery": [
+    { "title": "Ford Transit Connect — Driver Side", "image": "./images/gallery/van_dside_exterior.jpg", "alt": "Transit Connect driver side after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Panels polished and sealed." },
+    { "title": "Ford Transit Connect — Rear Driver", "image": "./images/gallery/van_dside_rear_exterior.jpg", "alt": "Transit Connect rear driver after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Glossy rear quarter & glass." },
+    { "title": "Ford Transit Connect — Front", "image": "./images/gallery/van_front_exterior.jpg", "alt": "Front end of Transit Connect after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Wash, decon, sealant." },
+    { "title": "Transit Connect — Front Seats", "image": "./images/gallery/van_frontseat_interior.jpg", "alt": "Transit Connect front seats cleaned", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Steam, shampoo & protect." },
+    { "title": "Transit Connect — Rear Interior", "image": "./images/gallery/van_rear_interior.jpg", "alt": "Transit Connect rear cargo area clean", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Vacuum and plastics restored." },
+    { "title": "Transit Connect — Backseat", "image": "./images/gallery/van_backseat_interior.jpg", "alt": "Transit Connect backseat detailed", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Upholstery deep cleaned." },
+
+    { "title": "Jeep Renegade — Driver Area (Before)", "image": "./images/gallery/jeep_driver_interior_before.jpg", "alt": "Dirty driver area before cleaning", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Debris and dust visible." },
+    { "title": "Jeep Renegade — Passenger Seat (Before)", "image": "./images/gallery/jeepren_pass-seat_interior_before.jpg", "alt": "Stained passenger seat before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Heavy staining prior to shampoo." },
+    { "title": "Jeep Renegade — Backseat (Before)", "image": "./images/gallery/jeepren_backseat_interior_before.jpg", "alt": "Backseat before cleaning", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Embedded dirt and debris." },
+    { "title": "Jeep Renegade — Console/Shifter (Before)", "image": "./images/gallery/jeepren_console-shifter_interior_before.jpg", "alt": "Dirty console and shifter", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Sticky residues pre-steam." },
+    { "title": "Jeep Renegade — Trunk (Before)", "image": "./images/gallery/jeepren_trunk_interior_before.jpg", "alt": "Messy trunk before detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Vacuum & extraction needed." },
+    { "title": "Jeep Renegade — Under Driver Seat (Before)", "image": "./images/gallery/jeepren_underdriverseat_interior_before.jpg", "alt": "Debris under driver seat", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Hidden areas pre-clean." },
+    { "title": "Jeep Renegade — Under Passenger Seat (Before)", "image": "./images/gallery/jeepren_underpass-seat_interior_before.jpg", "alt": "Debris under passenger seat", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Crumbs and trash removed." },
+    { "title": "Jeep Renegade — Rear Passenger Stain (Before)", "image": "./images/gallery/stain_rearpass_interior_before.jpg", "alt": "Stain on rear passenger seat", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Spot treatment required." },
+    { "title": "Jeep Renegade — Interior (After • Video)", "video": "./images/gallery/jeep_interior_clean.mp4", "muted": true, "alt": "Clean Jeep interior after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Steamed, extracted and protected." },
+    { "title": "Jeep Renegade — Exterior (After)", "image": "./images/gallery/jeepren_exterior_after.jpg", "alt": "Renegade exterior glossy after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Wash, polish and sealant." },
+
+    { "title": "Kia Optima — Sunset Wash", "image": "./images/gallery/optima_sunset.jpg", "alt": "White Kia Optima at sunset, suds on driveway", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Golden-hour gloss." },
+
+    { "title": "Truck Bed Trim — Before", "image": "./images/gallery/truckbed_plastic_restore_before.jpg", "alt": "Faded truck bed cover edge before restore", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Oxidized plastic trim." },
+    { "title": "Truck Bed Trim — After", "image": "./images/gallery/truckbed_plastic_restore_after.jpg", "alt": "Restored black plastic at bed edge", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Deep, even black restored." },
+
+    { "title": "F-150 — Center Console (Before)", "image": "./images/gallery/f150_centerconsole_interior_before.jpg", "alt": "Dusty center console before cleaning", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Spills and dust present." },
+    { "title": "F-150 — Center Console (After)", "image": "./images/gallery/f150_console_interior_after.jpg", "alt": "Clean console and cupholders after", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Scrubbed and dressed plastics." },
+    { "title": "F-150 — Rear Cupholders (Before)", "image": "./images/gallery/f150_rearcup_interior_before.jpg", "alt": "Dirty rear cupholders before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Crumbs & dust build-up." },
+    { "title": "F-150 — Rear Cupholders (After)", "image": "./images/gallery/f150_rearcup_interior_after.jpg", "alt": "Rear cupholders cleaned", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Sanitized and refreshed." },
+    { "title": "F-150 — Passenger Seat (Before)", "image": "./images/gallery/f150_passenger_interior_before.jpg", "alt": "Front passenger seat with debris", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Vacuum and extraction needed." },
+    { "title": "F-150 — Passenger Seat (After)", "image": "./images/gallery/f150_passenger_interior_after.jpg", "alt": "Cleaned passenger seat and carpet", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Seats and carpets revived." },
+    { "title": "F-150 — Backseat (After)", "image": "./images/gallery/f150_backseat_interior_after.jpg", "alt": "Rear bench detailed", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Uniform clean & lines." },
+    { "title": "F-150 — Interior Driver Area (After)", "image": "./images/gallery/f150_interior_after.jpg", "alt": "Driver area clean and dressed", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Matte OEM finish." },
+
+    { "title": "F-150 Cowl Plastic — Before", "image": "./images/gallery/f150_plastic_restore_hood_exterior_before.jpg", "alt": "Faded cowl plastic before restore", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "UV faded grey plastic." },
+    { "title": "F-150 Cowl Plastic — After", "image": "./images/gallery/f150_plastic_restore_hood_exterior_after.jpg", "alt": "Restored cowl plastic deep black", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Trim restoration complete." },
+
+    { "title": "Volkswagen Atlas — Front (Before)", "image": "./images/gallery/volkswagen_atlas_dfront_exterior_before.jpg", "alt": "Dirty front quarter before wash", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Bug splatter & dust." },
+    { "title": "Volkswagen Atlas — Front (After)", "image": "./images/gallery/volkswagen_atlas_front_exterior_after.jpg", "alt": "Atlas front shining after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Chrome and paint popping." },
+    { "title": "Volkswagen Atlas — Grill (Before)", "image": "./images/gallery/volkswagen_atlas_grill_before.jpg", "alt": "Close-up grill with bugs before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Decon and foam presoak." },
+    { "title": "Volkswagen Atlas — Driver Front (After)", "image": "./images/gallery/volkswagen_atlas_passfront_after.jpg", "alt": "Driver-front angle after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "High-gloss finish." },
+    { "title": "Volkswagen Atlas — Rear (Before)", "image": "./images/gallery/volkswagen_atlas_rear_exterior_before.jpg", "alt": "Dusty rear hatch before wash", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Road film evident." },
+
+    { "title": "Volkswagen Atlas — Passenger Front (After)", "image": "./images/gallery/volkswagen_atlas_passenger_interior_after.jpg", "alt": "Clean Atlas passenger area", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Vacuumed, steamed & dressed." },
+    { "title": "Volkswagen Atlas — Passenger Front (Before)", "image": "./images/gallery/volkswagen_atlas_passenger_interior_before.jpg", "alt": "Atlas passenger area before cleaning", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Debris in footwell." },
+    { "title": "Volkswagen Atlas — Backseat (Before)", "image": "./images/gallery/volkswagen_atlas_backseat_interior_before.jpg", "alt": "Backseat with crumbs before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Crumbs in seams." },
+    { "title": "Volkswagen Atlas — Backseat (After)", "image": "./images/gallery/volkswagen_atlas_backseat_interior_after.jpg", "alt": "Backseat detailed and protected", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Stitching & leather restored." },
+    { "title": "Volkswagen Atlas — Trunk (After)", "image": "./images/gallery/volkswagen_atlas_trunk_interior_after.jpg", "alt": "Clean Atlas cargo area", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Vacuum lines on cargo mat." },
+    { "title": "Volkswagen Atlas — Center Console (Before)", "image": "./images/gallery/volkswagen_atlas_centerconsole_interior_before.jpg", "alt": "Dusty center console before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Clutter and dust." },
+    { "title": "Volkswagen Atlas — Center Console (After)", "image": "./images/gallery/volkswagen_atlas_centerconsole_interior_after.jpg", "alt": "Console cleaned and shiny", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Controls and cupholders renewed." },
+    { "title": "Volkswagen Atlas — Under Console (Before)", "image": "./images/gallery/volkswagen_atlas_centerconsoleunder_interior_before.jpg", "alt": "Under-console storage dusty", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Crumbs & grit." },
+    { "title": "Volkswagen Atlas — Under Console (After)", "image": "./images/gallery/volkswagen_atlas_centerconsoleunder_interior_after.jpg", "alt": "Under-console area cleaned", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Wiped and protected." },
+
+    { "title": "Volvo — Front (Before)", "image": "./images/gallery/volvo_front_exterior_before.jpg", "alt": "Volvo front bumper with bugs", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Pre-wash bug removal." },
+    { "title": "Volvo — Driver Front (After)", "image": "./images/gallery/volvo_dfront_exterior_after.jpg", "alt": "Volvo front angle after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Deep reflection and shine." },
+
+    { "title": "Volvo — Driver Interior (Before)", "image": "./images/gallery/volvo_driver_interior_before.jpg", "alt": "Driver seat and floor before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Light debris in mats." },
+    { "title": "Volvo — Driver Interior (After)", "image": "./images/gallery/volvo_driver_interior_after.jpg", "alt": "Driver area cleaned and dressed", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "OEM matte finish." },
+    { "title": "Volvo — Passenger Interior (Before)", "image": "./images/gallery/volvo_passenger_interior_before.jpg", "alt": "Passenger footwell dust/debris", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Ready for vacuum & wipe." },
+    { "title": "Volvo — Backseat (Before)", "image": "./images/gallery/volvo_backseat_interior_before.jpg", "alt": "Backseat before vacuum", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Dust on mats and seat." },
+    { "title": "Volvo — Backseat (After)", "image": "./images/gallery/volvo_backseat_interior_after.jpg", "alt": "Backseat detailed with clean mats", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Even, factory look." },
+    { "title": "Volvo — Center Console (Before)", "image": "./images/gallery/volvo_centerconsole_interior_before.jpg", "alt": "Center console stained before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","Before"], "blurb": "Sticky residues.", "pairId": "volvo-console" },
+    { "title": "Volvo — Center Console (After)", "image": "./images/gallery/volvo_centerconsole_interior_after.jpg", "alt": "Center console restored after", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Gloss restored.", "pairId": "volvo-console" },
+
+    { "title": "GMC Yukon — Front Grill (After)", "image": "./images/gallery/yukon_frontgrill_exterior_after.jpg", "alt": "Yukon chrome grill gleaming", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Chrome cleaned & protected." },
+    { "title": "GMC Yukon — Driver Front (After)", "image": "./images/gallery/yukon_dfront_exterior_after.jpg", "alt": "Driver front quarter after", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Polished and sealed." },
+    { "title": "GMC Yukon — Passenger Side (After)", "image": "./images/gallery/yukon_pside_exterior_after.jpg", "alt": "Passenger side Yukon after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Mirror-like reflections." },
+    { "title": "GMC Yukon — Rear (Before)", "image": "./images/gallery/yukon_rear_exterior_before.jpg", "alt": "Rear hatch with smudges before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Water spots & dirt." },
+    { "title": "GMC Yukon — Rear (After)", "image": "./images/gallery/yukon_rear_exterior_after.jpg", "alt": "Clean Yukon rear after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Tailgate and glass spotless." },
+
+    { "title": "Cadillac SRX — Driver Side (Before)", "image": "./images/gallery/cadillac_dside_exterior_before.jpg", "alt": "Driver side with scratches/dust", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Pre-wash & polish." },
+    { "title": "Cadillac SRX — Driver Side (After)", "image": "./images/gallery/cadillac_dside_exterior_after.jpg", "alt": "Driver side glossy after", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Trim and paint restored." },
+    { "title": "Cadillac SRX — Passenger Side (Before)", "image": "./images/gallery/cadillac_pside_exterior_before.jpg", "alt": "Passenger side dusty before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Road film and dust." },
+    { "title": "Cadillac SRX — Passenger Side (After)", "image": "./images/gallery/cadillac_pside_exterior_after.jpg", "alt": "Passenger side after detail", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Deep gloss & clarity." },
+    { "title": "Cadillac SRX — Passenger Front (After)", "image": "./images/gallery/cadillac_pside_front_exterior_after.jpg", "alt": "Passenger front angle glossy", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Panels corrected & sealed." },
+    { "title": "Cadillac SRX — Rear (Before)", "image": "./images/gallery/cadillac_rear_exterior_before.jpg", "alt": "Rear hatch dusty before", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","Before"], "blurb": "Pre-rinse & wash needed." },
+    { "title": "Cadillac SRX — Rear (After)", "image": "./images/gallery/cadillac_rear_exterior_after.jpg", "alt": "Rear hatch glossy after", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Exterior","After"], "blurb": "Cleaned badges & glass." },
+    { "title": "Cadillac SRX — Passenger Interior (After)", "image": "./images/gallery/cadillac_passenger_interior_after.jpg", "alt": "Front passenger interior clean", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Leather cleaned & conditioned." },
+    { "title": "Cadillac SRX — Driver Interior (After)", "image": "./images/gallery/cadillac_driver_interior_after.jpg", "alt": "Driver area detailed", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Dash, console and mats clean." },
+    { "title": "Cadillac SRX — Backseat (After)", "image": "./images/gallery/cadillac_backseat_interior_after.jpg", "alt": "Backseat cleaned and neat", "city": "Rock Falls", "state": "IL", "year": 2025, "categories": ["Interior","After"], "blurb": "Even finish on leather." }
+  ]
+}

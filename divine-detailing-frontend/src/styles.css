@@ -1,0 +1,402 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background-color: #002147;
+}
+
+.navbar-brand,
+.nav-link,
+.footer-text {
+  color: #ff6600 !important;
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffb366 !important;
+  text-shadow: 0 0 4px rgba(255, 165, 0, 0.6);
+}
+
+.nav-link.active {
+  color: #ffffff !important;
+  background-color: #ff6600 !important;
+  border-radius: 8px;
+  padding: 6px 12px;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  /* background image + readability overlay */
+  background:
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("./images/gallery/optima_sunset.jpg") center/cover no-repeat;
+
+  color: #fff;
+  text-align: center;
+  padding: 110px 0;
+  min-height: 85vh;
+  background-position: center 32%;}
+
+.hero h1 {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* ---------- PACKAGE CARDS ---------- */
+.package-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 12px;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* ---------- GALLERY ---------- */
+#galleryContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  transition: opacity 0.5s ease-in-out;
+  justify-items: center; /* center cards in their grid cells */
+}
+
+.gallery-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  
+}
+
+/* Better image and video clarity */
+.gallery-card img,
+.gallery-card video {
+  width: 100%;
+  height: auto; /* keep natural aspect ratio */
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  image-rendering: auto; /* allow browser to use high-quality scaling */
+}
+
+.gallery-card img:hover,
+.gallery-card video:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+
+.caption {
+  padding: 0.75rem 1rem;
+}
+
+.caption h3 {
+  font-size: 1.1rem;
+  color: #002147;
+}
+
+.caption .tag {
+  font-size: 0.85rem;
+  color: #ff6600;
+  font-weight: 600;
+}
+
+/* Progress bar below gallery */
+#progressWrapper {
+  width: 100%;
+  height: 6px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #ff6600, #ffa64d);
+  transition: width 0.1s linear;
+}
+
+/* ---------- FORMS ---------- */
+form label span.text-danger {
+  font-weight: bold;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffb366;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* ---------- GALLERY FILTER BUTTONS ---------- */
+.filter-bar {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.filter-btn {
+  border: 2px solid #ff6600;
+  background-color: transparent;
+  color: #ff6600;
+  font-weight: 600;
+  margin: 0.25rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #ff6600;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.4);
+}
+
+.filter-btn.active {
+  background-color: #ff6600;
+  color: white;
+  box-shadow: 0 0 12px rgba(255, 165, 0, 0.6);
+  transform: scale(1.05);
+}
+
+/* ======= Toast Notifications ======= */
+.toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.toast-item {
+  min-width: 260px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  animation: slideIn 0.4s ease;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.2);
+}
+
+.toast-info { background: #0d6efd; }     /* blue */
+.toast-success { background: #28a745; }  /* green */
+.toast-warning { background: #ffc107; color: #000; } /* yellow */
+.toast-danger { background: #dc3545; }   /* red */
+
+@keyframes slideIn {
+  from { transform: translateX(120%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* ======= Booking Calendar (Light Theme) ======= */
+.booking-calendar {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 16px;
+  color: #212529;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.calendar-month-label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.calendar-grid {
+  margin-top: 6px;
+}
+
+.calendar-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-weekdays {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c757d;
+}
+
+.calendar-weekday {
+  text-align: center;
+  padding: 6px 0;
+}
+
+.calendar-day {
+  border: none;
+  background: transparent;
+  padding: 6px 0;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.calendar-day-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+.calendar-day:hover .calendar-day-number {
+  background: #f1f3f5;
+}
+
+.calendar-day-selected .calendar-day-number {
+  background: #0d6efd;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.calendar-day-disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.calendar-day-disabled .calendar-day-number {
+  background: transparent;
+}
+
+.calendar-day.empty {
+  height: 40px;
+}
+
+/* Partial availability */
+.calendar-day-partial .calendar-day-number {
+  border: 2px solid #ffc107;
+}
+
+/* Small dot indicator */
+.calendar-day-dot {
+  width: 6px;
+  height: 6px;
+  background: #ffc107;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Legend */
+.calendar-legend {
+  font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-box {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+}
+
+.legend-box.available {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+}
+
+
+.legend-box.partial {
+  background: #ffc107;
+}
+
+.legend-box.unavailable {
+  background: #3f3f3f;
+}
+
+/* ===== Fully booked (AM + PM taken) ===== */
+.calendar-day-fully-booked .calendar-day-number {
+  background: #e9ecef;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.calendar-day-fully-booked::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.06),
+    rgba(0, 0, 0, 0.06) 5px,
+    transparent 5px,
+    transparent 10px
+  );
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+/* ===== Admin blocked (intentional block) ===== */
+.calendar-day-admin-blocked .calendar-day-number {
+  background: #dee2e6;
+  color: #495057;
+  font-weight: 600;
+}
+
+.calendar-day-admin-blocked::after {
+  content: '🔒';
+  position: absolute;
+  bottom: 3px;
+  right: 6px;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+

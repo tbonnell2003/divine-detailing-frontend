@@ -469,8 +469,7 @@ function Home() {
                 Divine Detailing
               </h1>
               <p className="lead text-white-50">
-                Premium mobile auto detailing for Platteville and the
-                surrounding area. We bring the shine to you.
+                Driven by passion, perfected by experience. Elevate your vehicle's appearance with our expert detailing services.
               </p>
 
               <button

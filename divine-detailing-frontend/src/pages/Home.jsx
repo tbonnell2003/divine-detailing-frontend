@@ -3,6 +3,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
+import { Link } from 'react-router-dom';
+
 
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
@@ -587,6 +589,12 @@ function Home() {
       <section id="schedule" ref={scheduleRef} className="py-5">
         <div className="container">
           <h2 className="text-center mb-4">Schedule an Appointment</h2>
+          <p className="text-center text-muted mb-4">
+          Want to save your detail history and track your appointment status?{' '}
+          <Link to="/signup" className="fw-semibold">
+          Create an account here
+          </Link> before you schedule.</p>
+
 
           {error && data && (
             <div className="alert alert-warning mb-3">
